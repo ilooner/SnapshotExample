@@ -1,0 +1,10 @@
+{
+  "values": [{"name": "a name", "type": "string"},
+             {"name": "b name", "type": "string"},
+             {"name": "c name", "type": "string"},
+             {"name": "d name", "type": "string"},
+             {"name": "a", "type": "long"},
+             {"name": "b", "type": "long"},
+             {"name": "c", "type": "long"},
+             {"name": "d", "type": "double"}]
+}
