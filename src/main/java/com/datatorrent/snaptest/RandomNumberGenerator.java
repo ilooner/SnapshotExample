@@ -30,10 +30,10 @@ public class RandomNumberGenerator extends BaseOperator implements InputOperator
   public static final String C_NAME = "c name";
   public static final String D_NAME = "d name";
 
-  public static final List<String> NAMES_A = Lists.newArrayList("bill, bob, tom, todd, willy, nilly");
-  public static final List<String> NAMES_B = Lists.newArrayList("chocolate, banana, coconut, apple, pie, coffee");
-  public static final List<String> NAMES_C = Lists.newArrayList("panda, penguin, platapus, dodo, octopus, salamander");
-  public static final List<String> NAMES_D = Lists.newArrayList("Google, Data Torrent, Drop Box, Face Book, Cisco, Oracle");
+  public static final List<String> NAMES_A = Lists.newArrayList("bill", "bob", "tom", "todd", "willy", "nilly");
+  public static final List<String> NAMES_B = Lists.newArrayList("chocolate", "banana", "coconut", "apple", "pie", "coffee");
+  public static final List<String> NAMES_C = Lists.newArrayList("panda", "penguin", "platapus", "dodo", "octopus", "salamander");
+  public static final List<String> NAMES_D = Lists.newArrayList("Google", "Data Torrent", "Drop Box", "Face Book", "Cisco", "Oracle");
 
 
   private transient Random rand = new Random();
