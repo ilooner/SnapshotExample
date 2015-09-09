@@ -76,5 +76,7 @@ public class RandomNumberGenerator extends BaseOperator implements InputOperator
       resultMap.put(C_NAME, NAMES_C.get(counter));
       resultMap.put(D_NAME, NAMES_D.get(counter));
     }
+
+    out.emit(results);
   }
 }
